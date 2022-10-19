@@ -1,4 +1,4 @@
-<font size = 5>
+```
 void quick_sort(int a[],int l,int r)
 {
     if(l>=r) return;
@@ -12,4 +12,4 @@ void quick_sort(int a[],int l,int r)
     quick_sort(a,l,j);
     quick_sort(a,j+1,r);
 }
-</font>
+```
